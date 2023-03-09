@@ -9,7 +9,7 @@ public class Snack2 {
         String[] guests = new String[10];
         Random random = new Random();
         for (int i = 0; i < 10; i++){
-            guests[i] = names[random.nextInt(10)] + " " + surnames[random.nextInt(10)];
+            guests[i] = names[random.nextInt(names.length)] + " " + surnames[random.nextInt(surnames.length)];
             System.out.println(guests[i]);
         }
     }
