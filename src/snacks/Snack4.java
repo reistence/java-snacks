@@ -12,11 +12,9 @@ public class Snack4 {
         int[] small = {23, 45, 68, 77, 69};
         int[] large = {99, 89, 232, 44, 33, 13, 15, 7, 9, 10};
         Random random = new Random();
-        for (int i = 0; i < (large.length - small.length); i++) {
-            System.out.print(random.nextInt(100) + " ,");
+        for (int i = 0; i < (large.length - small.length); i++) System.out.print(random.nextInt(100) + " ,");
 
-        }
-            System.out.println(Arrays.toString(small));
-            System.out.println(Arrays.toString(large));
+        System.out.println(Arrays.toString(small));
+        System.out.println(Arrays.toString(large));
     }
 }
