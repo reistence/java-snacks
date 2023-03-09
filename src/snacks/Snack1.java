@@ -7,8 +7,8 @@ public class Snack1 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Insert a number: ");
+        scan.close();
         int userNr = Integer.parseInt(scan.nextLine());
-
         if (userNr % 2 == 0) System.out.println(userNr +" is even");
         else System.out.println("Not even so " + (userNr + 1));
 
